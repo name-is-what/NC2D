@@ -1,1 +1,1 @@
-# $NC$^{2}$D$: Novel Class Discovery for Node Classification
+# N2D: Novel Class Discovery for Node Classification
