@@ -41,7 +41,7 @@ Please put the trained model in the directory `./models/save`. We have already p
 
 ### NCD-Training
 
-To evaluate DGIB with trained models, run the following command in the directory `./config`:
+For NCD-training phase, run the following command in the directory `./config`:
 
 ```shell
 python incd_expt_aug.py --config config/gcn_cora.yml
