@@ -1,0 +1,43 @@
+# Data
+dataset_name: 'CiteSeer'
+# data_dir: 'data/Planetoid'
+num_old: 4
+
+
+# Random seed
+# seed: 42
+# random_seed: 1234
+
+# Model architecture
+model_name: 'GAT'
+hidden_size: 32
+
+
+# Regularization
+# dropout: 0.5
+# feat_adj_dropout: 0.5
+# gl_dropout: 0.5
+
+
+# Training
+pre_train_epochs: 30
+ncd_train_epochs: 210
+# ncd_train_epochs: 590
+
+# optimizer: 'adam'
+learning_rate: 0.01
+weight_decay: 0.0005
+
+rampup_length: 50
+rampup_coefficient: 5.0
+increment_coefficient: 0.01
+lambda_proto: 1.0
+w_kd: 10
+
+
+# Output
+print_every_epochs: 10
+pre_train_log_dir: 'config/log_pre_train/'
+ncd_train_log_dir: 'config/log_ncd_train/'
+
+model_dir: './models/save/'
