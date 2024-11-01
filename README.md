@@ -1,4 +1,4 @@
-# [CIKM '24] NC$^{2}$D: Novel Class Discovery for Node Classification
+# [CIKM '24] NC2D: Novel Class Discovery for Node Classification
 
 This repository is the official implementation of "[NC$^{2}$D: Novel Class Discovery for Node Classification](https://dl.acm.org/doi/abs/10.1145/3627673.3679779)" accepted by the Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM '24).
 
