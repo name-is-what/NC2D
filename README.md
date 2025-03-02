@@ -23,7 +23,7 @@ Main package requirements:
 To install the complete requiring packages, use the following command at the root directory of the repository:
 
 ```setup
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ## 2. Quick Start
